@@ -1,6 +1,6 @@
 .slider {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -18,12 +18,11 @@
     position: absolute;
     left: 0;
     top: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.5s;
 }
 
-.slider .buttons {
-    display: flex;
-    justify-content: center;
+.slider .btn {
+    margin: 30px;
 }
 
 .slider .visible {
